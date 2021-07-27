@@ -389,6 +389,13 @@ _TABLE_COLUMN_PATTERNS = {
         WikipediaSqlColumn("pl_title", ESCAPED_STRING, unquote=True, unescape=True),
         WikipediaSqlColumn("pl_from_namespace", DIGITS),
     ),
+    "externallinks": (
+        WikipediaSqlColumn("el_id", DIGITS),
+        WikipediaSqlColumn("el_from", DIGITS),
+        WikipediaSqlColumn("el_to", ESCAPED_STRING, unquote=True, unescape=True),
+        WikipediaSqlColumn("el_index", ESCAPED_STRING, unquote=True, unescape=True),
+        WikipediaSqlColumn("el_index_60", ESCAPED_STRING, unquote=True, unescape=True),
+    ),
 }  # type: Dict[str, Tuple[WikipediaSqlColumn, ...]]
 
 
