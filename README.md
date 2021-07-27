@@ -100,6 +100,7 @@ df = pd.read_csv("enwiki-20200920-page.csv", keep_default_na=False, na_values=["
 * https://www.mediawiki.org/wiki/Manual:Page_props_table
 * https://www.mediawiki.org/wiki/Manual:Pagelinks_table
 * https://www.mediawiki.org/wiki/Manual:Redirect_table
+* https://www.mediawiki.org/wiki/Manual:Externallinks_table
 
 
 # License
